@@ -1,9 +1,7 @@
 body{
-  /* margin: 0; */
   min-height: 100vh;
   margin: 200px 0;
   display: flex;
-  /* justify-content: center; */
   font-family: roboto, sans-serif;
   align-items: center;
   flex-direction: column;
@@ -25,9 +23,6 @@ body{
   border-radius: 50px;
   padding: 10px 25px 10px 25px;
   width: fit-content;
-  /* opacity: 0.5;
-  background: rgba(255, 255, 255, 0.2); */
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); */
   background: rgba(255, 255, 255, 0.13);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.8px);
