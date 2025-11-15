@@ -27,9 +27,9 @@ The backend loads these files during startup and uses them to compute probabilit
 * Handles punctuation removal, tokenization, and case normalization
 * Lightweight and easy to extend
 
-## Setup
+## Project Demo
 
-Refer to `setup.md` for clear instructions to setup the project
+https://github.com/user-attachments/assets/467a7aa8-b86b-40e7-adbd-6b4e22b8c715
 
 ## Tech Stack
 
@@ -50,6 +50,10 @@ Refer to `setup.md` for clear instructions to setup the project
 
 * spam.csv dataset from Kaggle
 * JSON files for word-frequency storage
+
+## Setup
+
+Refer to `setup.md` for clear instructions to setup the project
 
 ## Dataset
 
