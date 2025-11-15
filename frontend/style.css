@@ -1,0 +1,114 @@
+body{
+  /* margin: 0; */
+  min-height: 100vh;
+  margin: 200px 0;
+  display: flex;
+  /* justify-content: center; */
+  font-family: roboto, sans-serif;
+  align-items: center;
+  flex-direction: column;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title-container{
+
+  font-weight: bold;
+  color: white;
+  display: flex;
+
+  font-family: roboto, sans-serif;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+  font-size: 35px;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 10px 25px 10px 25px;
+  width: fit-content;
+  /* opacity: 0.5;
+  background: rgba(255, 255, 255, 0.2); */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); */
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#container{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-container{
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  align-content: center;
+  justify-content: center;
+}
+
+#check{
+  border-radius: 25px;
+  background: #7F7FD5;
+  width: fit-content;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font: bold;
+  margin: 20px auto 40px auto;
+}
+
+#check:hover{
+  color: black;
+  font-weight: 350;
+  background: lightcyan;
+}
+
+.predict{
+  align-items: center;
+  justify-content: center;
+}
+
+#message-input{
+  background: none;
+  border: 2px solid rgba(127,127,213,0.4);
+  border-radius: 35px;
+  width: 45vw;
+  margin: 40px auto 5px auto;
+  height: 50px;
+  padding: 3px 15px 3px 20px;
+  font-size: 20px;
+}
+
+#message-input:focus{
+  border: 2px solid rgba(127,127,213,0.4);
+  outline: none;
+}
+
+#message-input::placeholder{
+  padding-left: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+#message-input::target-text{
+  font-size: 20px;
+}
