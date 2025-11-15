@@ -27,6 +27,10 @@ The backend loads these files during startup and uses them to compute probabilit
 * Handles punctuation removal, tokenization, and case normalization
 * Lightweight and easy to extend
 
+## Setup
+
+Refer to `setup.md` for clear instructions to setup the project
+
 ## Tech Stack
 
 ### Backend
